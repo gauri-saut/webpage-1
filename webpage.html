@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+
+        }
+
+        ul li {
+            display: inline;
+            list-style: none;
+            padding: 8px;
+            border-radius: 5px;
+        }
+
+        ul li:hover {
+            background-color: rgb(227, 203, 172);
+        }
+
+        nav {
+            height: 10vh;
+            width: 100vw;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 2rem;
+            padding-right: 2rem;
+        }
+
+
+
+
+
+        main {
+            height: 70vh;
+            width: 92vw;
+            margin-left: 4vw;
+            background-color: rgb(212, 168, 110);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding-left: 5rem;
+            padding-right: 5rem;
+        }
+
+        #soylent {
+
+            border: 2px solid black;
+            font-weight: 600;
+        }
+
+        .fruits {
+            
+            height: auto;
+            width: 10rem;
+
+        }
+
+        #myimg {
+            width: 10rem;
+            height: auto;
+        }
+
+        #myims{
+            width: 20px;
+            height: 20px;
+            
+        }
+
+        .content {
+            
+            height: 18rem;
+            width: 24.4rem;
+           padding-top: 4.2rem;
+
+        }
+
+        .mybtn {
+            padding: 5px;
+            border-radius: 5px;
+            margin-top: 2rem;
+            background-color: rgb(203, 227, 97);
+            border: 1px solid pink;
+            color: rgb(0, 6, 3);
+            font-weight: 700;
+            box-shadow: 3px 3px 0 0 black;
+         }
+
+         .mybtn:hover{
+            background-color: rgb(147, 181, 236);
+            color: black;
+         }
+
+         #bottomline{
+            font-size: 18px;
+            margin-top: 1rem;
+            margin-left: 12rem;
+
+         }
+         hr{
+            margin-top: 1rem;
+
+         }
+
+
+    </style>
+
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+            <li id="soylent">Soylent</li>
+            <li>Drink</li>
+            <li>Cafe</li>
+            <li>Powder</li>
+            <li>All Procuct</li>
+        </ul>
+
+        <ul>
+            <img src="./assets/images/WhatsApp Image 2023-10-23 at 9.07.17 AM (2).jpeg"  id="myims">
+            <li>Login</li>
+            <li>Referred</li>
+            <li>Cart</li>
+
+        </ul>
+
+    </nav>
+    <main>
+
+        <div class="fruits">
+            <img src="./assets/images/WhatsApp Image 2023-10-23 at 9.07.17 AM (1).jpeg" id="myimg">
+
+        </div>
+
+        <div class="content">
+            <h2>Fruit is Black!</h2>
+
+            <p style="margin-top: 1rem; font-size: 18px;">A table, a chair, a bowl of fruit and a violin; what else does a man need to be happy?
+                Read more at https://www.brainyquote.com/topics/fruit-quotes</p>
+            <button class="mybtn">Shop Now</button>
+
+        </div>
+
+    </main>
+
+    <p id="bottomline">Now tow bottlw to serve you! <a href="">Click here</a> to lern more about our new</p>
+    <hr>
+
+
+
+</body>
+
+</html>
